@@ -1,34 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏪 Sistema de Gestión de Inventario - Eligam
 
-## Getting Started
+Sistema web completo para control de inventario empresarial con carga automática de facturas XML, desarrollado como solución real para optimizar la gestión de productos y proveedores.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Demo en Vivo
+[Ver Demo →](#)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Credenciales de prueba:**  
+- **Email:** demo@gmail.com  
+- **Contraseña:** prueba
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Características Principales
 
-## Learn More
+- 📄 **Carga automática de facturas XML**: Parseo e importación masiva de productos desde facturas electrónicas.  
+- 📦 **Gestión completa de inventario**: Control de productos, stock y movimientos.  
+- 👥 **Gestión de proveedores**: Administración centralizada de información de proveedores.  
+- 📊 **Dashboard con estadísticas**: Visualización en tiempo real de métricas clave.  
+- 🔐 **Autenticación segura**: Sistema de login con NextAuth y encriptación bcrypt.  
+- 📱 **Diseño responsivo**: Interfaz adaptable a dispositivos móviles y tablets.  
+- 📈 **Historial de movimientos**: Trazabilidad completa de entradas y salidas.  
+- 🔄 **Gestión de movimientos**: Registro de entradas, salidas y ajustes de inventario.  
+- 📋 **Control de repuestos**: Sistema especializado para gestión de repuestos automotrices.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Stack Tecnológico
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Frontend:**  
+- Framework: Next.js 14 (App Router)  
+- UI Library: React 18  
+- Estilos: TailwindCSS  
+- Componentes: Componentes personalizados + Headless UI  
 
-## Deploy on Vercel
+**Backend:**  
+- API: Next.js API Routes  
+- ORM: Conexión directa con MySQL  
+- Autenticación: NextAuth.js  
+- Seguridad: bcrypt para hash de contraseñas  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Base de Datos:**  
+- DBMS: MySQL 8.0  
+- Hosting: Aiven Cloud  
+- Modelado: Base de datos relacional normalizada  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Deployment:**  
+- Frontend/Backend: Vercel  
+- Base de Datos: Aiven (MySQL Cloud)  
+- CI/CD: GitHub + Vercel (deploy automático)  
+
+**Herramientas Adicionales:**  
+- Procesamiento XML: Custom parser para facturas electrónicas costarricenses  
+- Validación: Validación de formularios del lado cliente y servidor  
+- Manejo de estado: React Hooks (`useState`, `useEffect`, `useContext`)  
+
+---
+
+## 📸 Capturas de Pantalla
+
+**Dashboard Principal**  
+Vista general con estadísticas en tiempo real  
+
+**Gestión de Productos**  
+Listado y administración de productos  
+
+**Carga de Facturas XML**  
+Importación automática desde facturas electrónicas
