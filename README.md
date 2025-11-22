@@ -12,7 +12,7 @@ productos y proveedores.
 ---
 
 ## 🚀 Demo en Vivo
-[Ver Demo →](#https://demo-inventario-de-repuestos.vercel.app/)  
+[Ver Demo →][**demo**](https://demo-inventario-de-repuestos.vercel.app/)
 
 **Credenciales de prueba:**  
 - **Email:** demo@gmail.com  
