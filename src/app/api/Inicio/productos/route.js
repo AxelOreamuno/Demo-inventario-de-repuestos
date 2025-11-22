@@ -7,21 +7,18 @@ export async function GET() {
       "SELECT COUNT(*) AS totalProducts FROM Productos"
     );
 
-    const totalProducts = totalProductsResult[0]?.totalProducts ?? 0;
+    const totalProducts = totalProductsResult[0]?.totalProducts;
+    const results = { totalProducts };
 
-    return NextResponse.json({
-      success: true,
-      data: { totalProducts }
-    });
-
+    return NextResponse.json(results);
   } catch (error) {
-
     return NextResponse.json(
       {
-        success: false,
-        message: "Error al obtener el total de productos"
+        message: error.message,
       },
-      { status: 500 }
+      {
+        status: 500,
+      }
     );
   }
 }
