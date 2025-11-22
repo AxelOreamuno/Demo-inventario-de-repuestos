@@ -1,11 +1,18 @@
-# 🏪 Sistema de Gestión de Inventario - Eligam
+# 🏪 Sistema de Gestión de Inventario - Demo
+- 👤 **Autor:** [Axel Oreamuno](https://github.com/AxelOreamuno)
 
-Sistema web completo para control de inventario empresarial con carga automática de facturas XML, desarrollado como solución real para optimizar la gestión de productos y proveedores.
+---
+Sistema web completo para control de inventario empresarial con carga automática de 
+facturas XML, desarrollado como solución freelance real para optimizar la gestión de 
+productos y proveedores.
+
+> **Nota:** Esta es una versión demo del proyecto original (Junio 2024 - Noviembre 2024), 
+> con ajustes para despliegue público y exclusión del módulo de usuarios por privacidad.
 
 ---
 
 ## 🚀 Demo en Vivo
-[Ver Demo →](#)  
+[Ver Demo →](#https://demo-inventario-de-repuestos.vercel.app/)  
 
 **Credenciales de prueba:**  
 - **Email:** demo@gmail.com  
@@ -60,11 +67,11 @@ Sistema web completo para control de inventario empresarial con carga automátic
 
 ## 📸 Capturas de Pantalla
 
-**Dashboard Principal**  
-Vista general con estadísticas en tiempo real  
+> 🚧 **Capturas próximamente.** Mientras tanto, puedes explorar el sistema completo 
+> en la [**demo en vivo**](https://demo-inventario-de-repuestos.vercel.app/).
 
-**Gestión de Productos**  
-Listado y administración de productos  
-
-**Carga de Facturas XML**  
-Importación automática desde facturas electrónicas
+**Funcionalidades destacadas para explorar:**
+- Dashboard con estadísticas en tiempo real
+- Gestión completa de productos y proveedores
+- Carga automática de facturas XML
+- Historial de movimientos con filtros
