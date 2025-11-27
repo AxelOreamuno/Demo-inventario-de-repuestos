@@ -70,8 +70,21 @@ productos y proveedores.
 
 ## 📸 Capturas de Pantalla
 
-> 🚧 **Capturas próximamente.** Mientras tanto, puedes explorar el sistema completo 
-> en la [**demo en vivo**](https://demo-inventario-de-repuestos.vercel.app/).
+### Login
+<img width="1352" height="712" alt="image" src="https://github.com/user-attachments/assets/4184b4f0-565f-45c2-b3f1-622614832bbc" />
+
+### Dashboard principal
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/0e838916-9d82-4c05-83d5-10e61d54d962" />
+
+### Inventario de productos
+<img width="1900" height="913" alt="image" src="https://github.com/user-attachments/assets/e2bb0f48-de74-44d7-aacc-990bec1b473e" />
+
+### Factura XML procesada
+<img width="1904" height="919" alt="image" src="https://github.com/user-attachments/assets/4263d935-76cc-41ca-b8b8-12c4d22ba771" />
+
+### Movimientos de facturas ingresas con los productos ingresados
+<img width="1904" height="916" alt="image" src="https://github.com/user-attachments/assets/eceb3531-0ddb-44a5-90af-3feb267abb24" />
+
 
 **Funcionalidades destacadas para explorar:**
 - Dashboard con estadísticas en tiempo real
