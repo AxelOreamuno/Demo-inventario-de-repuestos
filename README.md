@@ -6,13 +6,16 @@ Sistema web completo para control de inventario empresarial con carga automátic
 facturas XML, desarrollado como solución freelance real para optimizar la gestión de 
 productos y proveedores.
 
+
 > **Nota:** Esta es una versión demo del proyecto original (Junio 2024 - Noviembre 2024), 
 > con ajustes para despliegue público y exclusión del módulo de usuarios por privacidad.
+> 
+> Este sistema está enfocado en inventario y control de repuestos; no incluye módulo de ventas.
 
 ---
 
 ## 🚀 Demo en Vivo
-[Ver Demo →][**demo**](https://demo-inventario-de-repuestos.vercel.app/)
+[Ver Demo →] https://demo-inventario-de-repuestos.vercel.app
 
 **Credenciales de prueba:**  
 - **Email:** demo@gmail.com  
@@ -26,11 +29,11 @@ productos y proveedores.
 - 📦 **Gestión completa de inventario**: Control de productos, stock y movimientos.  
 - 👥 **Gestión de proveedores**: Administración centralizada de información de proveedores.  
 - 📊 **Dashboard con estadísticas**: Visualización en tiempo real de métricas clave.  
-- 🔐 **Autenticación segura**: Sistema de login con NextAuth y encriptación bcrypt.  
-- 📱 **Diseño responsivo**: Interfaz adaptable a dispositivos móviles y tablets.  
+- 🔐 **Autenticación segura**: Sistema de login con NextAuth y encriptación bcrypt.
 - 📈 **Historial de movimientos**: Trazabilidad completa de entradas y salidas.  
 - 🔄 **Gestión de movimientos**: Registro de entradas, salidas y ajustes de inventario.  
 - 📋 **Control de repuestos**: Sistema especializado para gestión de repuestos automotrices.
+- 🖨️ **Exportación a PDF**: Generación automática de reportes PDF del inventario.
 
 ---
 
